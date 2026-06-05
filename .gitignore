@@ -1,0 +1,32 @@
+# Build output
+target/
+build/
+out/
+
+# Logs
+*.log
+logs/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Maven wrapper/runtime caches
+.mvn/wrapper/maven-wrapper.jar
+
+# Test/runtime artifacts
+hs_err_pid*
+replay_pid*
